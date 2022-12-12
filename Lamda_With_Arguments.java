@@ -5,7 +5,7 @@ interface Printable {
 public class Lamda_With_Arguments {
 //Lamda_With_Arguments
   public static void main(String[] args) {
-    Printable S1 = a -> {
+    Printable S1 = (a) -> {
       return a;
     };
 
